@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: cornsilk;
+}
+.container{
+    position: relative;
+}
+input[type='text']{
+    height: 45px;
+    width: 350px;
+    outline: 0;
+    border: none;
+    padding: 0 60px 0 5px;
+}
+.addIcon{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s; 
+    
+}
+.add_icon{
+    font-size: 30px !important;
+}
+.addIcon:hover{
+    background-color: aquamarine;
+}
+.btn{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    width: 350px;
+    background-color: #fff;
+    padding:0 5px;
+    margin: 20px 0;
+}
+.todotxt{
+    max-width: 240px;
+    word-wrap: break-word;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    gap: 5px;
+}
+.editIcon,.deleteIcon{
+    height: 45px;
+    width: 45px;
+    background-color: rgb(240, 249, 249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.editIcon:hover{
+    background-color: #ccc;
+}
+.deleteIcon:hover{
+    background-color: #ccc;
+}
